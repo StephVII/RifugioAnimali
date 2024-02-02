@@ -5,6 +5,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface SediRepository extends JpaRepository<Sede, String> {
+public interface SediRepository extends JpaRepository<Sede, Integer> {
 
 }

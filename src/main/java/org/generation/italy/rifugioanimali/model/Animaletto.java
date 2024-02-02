@@ -31,7 +31,7 @@ public class Animaletto {
 	@Column(nullable = false)
 	private boolean adottato;
 
-	@ManyToOne //tanti animaletti possono stare in una singola sede
+	@ManyToOne(optional = false) //tanti animaletti possono stare in una singola sede
 	private Sede sede;
 
 	@ManyToOne //tanti animaletti possono essere adottati da un singolo utente
